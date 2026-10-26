@@ -13,11 +13,15 @@ A Next.js storefront demo that reproduces the look, layout and shopping behaviou
 ```bash
 npm install
 npx playwright install chromium   # only needed for tests and visual tooling
-
-npm run assets:fetch              # optional: download the reference's fonts + logo into public/ (see NOTICE.md)
-npm run data:refresh              # required once: builds data/ from the public storefront (~10-20 min, rate-limited)
-
 npm run dev                       # http://localhost:3000
+```
+
+The scraped catalog and content (`data/`) is not committed. **The first `npm run dev` or `npm run build` generates it automatically** (about 10-20 minutes, because the storefront rate-limits); later runs reuse it. You can also run it explicitly with `npm run data:refresh`.
+
+The reference's fonts and logo are third-party assets and are **not** downloaded by default (the site renders with fallback fonts and no header logo). If you are authorised to use them, opt in:
+
+```bash
+npm run assets:fetch              # or: FETCH_BRAND_ASSETS=1 npm run dev / build
 ```
 
 Production build:
@@ -27,7 +31,12 @@ npm run build
 npm start -- -p 3100
 ```
 
-Without `assets:fetch` the site renders with fallback fonts and a missing header logo. Without `data:refresh` the build fails because `data/` is not committed.
+## Deploying (for example on Vercel)
+
+- The build runs `scripts/ensure-data.mjs` first, so a fresh clone builds without `data/` in the repo. Expect the first build to take 10-20 extra minutes (Vercel's build limit is 45 minutes on the free plan). If the storefront rate-limits the build machine, retry the deployment.
+- Set `FETCH_BRAND_ASSETS=1` in the project's environment variables only if you are authorised to serve the reference's fonts and logo.
+- For fast, deterministic deploys, keep a **private** fork with `data/` committed (remove `/data/` from `.gitignore`), or replace the snapshot with the Shopify Storefront API (see the implementation plan).
+- Product images and the home video are hotlinked from the reference's CDN and embeds, so do not run this as a public production site without the owner's agreement (see [NOTICE.md](NOTICE.md)).
 
 ## Scripts
 
@@ -35,7 +44,7 @@ Without `assets:fetch` the site renders with fallback fonts and a missing header
 |---|---|
 | `npm run dev` / `build` / `start` | Standard Next.js |
 | `npm run lint` | ESLint (currently 0 errors, 0 warnings) |
-| `npm run data:refresh` | Re-downloads catalog, collection order, recommendations, pages, policies and articles into `data/` (always uses `country=US`) |
+| `npm run data:refresh` | (Also run automatically by `dev`/`build` when `data/` is missing.) Re-downloads catalog, collection order, recommendations, pages, policies and articles into `data/` (always uses `country=US`) |
 | `npm run assets:fetch` | Downloads fonts and logo into `public/` |
 | `npm run test:e2e` | 103 checks against `http://localhost:3100` (pass another URL as an argument) |
 | `npm run test:sweep` | Loads all 224 product/collection/page/policy/article routes and fails on any console, hydration or failed same-origin request (default `http://localhost:3000`) |

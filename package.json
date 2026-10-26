@@ -13,7 +13,9 @@
     "test:sweep": "node tests/sweep-all.mjs",
     "visual:capture": "node tools/visual/capture-reference.js",
     "visual:compare": "node tools/visual/compare.js",
-    "visual:anchors": "node tools/visual/anchors.js"
+    "visual:anchors": "node tools/visual/anchors.js",
+    "predev": "node scripts/ensure-data.mjs",
+    "prebuild": "node scripts/ensure-data.mjs"
   },
   "dependencies": {
     "next": "16.4.3",

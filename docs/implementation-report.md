@@ -77,7 +77,7 @@ Automated checks (`npm run test:e2e`): **103/103 passing** — every route at de
 ```bash
 npm install
 npx playwright install chromium     # once, for tests
-npm run dev                         # http://localhost:3000
+npm run dev                         # first run generates data/ (10-20 min)
 npm run build && npm start -- -p 3100
 npm run test:e2e                    # against :3100
 npm run lint
