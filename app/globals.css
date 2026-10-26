@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* Fonts measured from hanifa.co (see docs/design-system.md) */
+@font-face { font-family: "BDSans-Black"; src: url("/fonts/BDSans-Black.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "BDSans-Bold"; src: url("/fonts/BDSans-Bold.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "BDSans-Regular"; src: url("/fonts/BDSans-Regular.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Helvetica-Light"; src: url("/fonts/Helvetica-Light.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Helvetica-Bold"; src: url("/fonts/Helvetica-Bold.woff2") format("woff2"); font-display: swap; }
+
+:root {
+  --header-h: 65px;
+  --gutter: 17px;
+  --sale-red: #d00;
+}
+
+@theme inline {
+  --font-body: "Helvetica-Light", sans-serif;
+  --font-display: "BDSans-Black", sans-serif;
+  --font-heading: "BDSans-Bold", sans-serif;
+  --font-regular: "BDSans-Regular", sans-serif;
+  --color-sale: var(--sale-red);
+}
+
+@layer base {
+html { background: #fff; }
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 10.8px;
+  letter-spacing: 0.5px;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font: inherit; letter-spacing: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+img { display: block; max-width: 100%; }
+}
+
+@layer components {
+.nav-label { font-family: var(--font-display); font-size: 12px; line-height: 10.8px; letter-spacing: -0.5px; text-transform: uppercase; }
+.page-title { font-family: var(--font-heading); font-size: 17px; line-height: 15.3px; letter-spacing: 0.3px; text-transform: uppercase; font-weight: 400; }
+.btn-label { font-family: var(--font-display); font-size: 17px; line-height: 17px; letter-spacing: -0.5px; text-transform: uppercase; }
+}
+
+/* Rich text (pages, policies, articles) — values measured from the reference */
+@layer components {
+.rte { font-family: var(--font-body); font-size: 17px; line-height: 17px; letter-spacing: 0.5px; }
+.rte p, .rte h4 { margin: 0; }
+.rte p[dir] + p, .rte h4 + p, .policy-body p + p { margin-top: 17px; }
+.rte p[dir] { font-size: 12px; line-height: 12px; }
+.rte h4 { font-family: var(--font-outfit), sans-serif; font-size: 21.25px; line-height: 21.25px; font-weight: 400; letter-spacing: 0.5px; margin-top: 17px; }
+.rte h2, .rte h3 { font-family: var(--font-heading); font-size: 17px; line-height: 15.3px; text-transform: uppercase; font-weight: 400; letter-spacing: 0.3px; margin: 17px 0 0; }
+.rte a { text-decoration: underline; }
+.rte ul { padding-left: 18px; margin: 17px 0 0; list-style: disc; }
+.rte hr { border: 0; border-top: 1px solid #000; margin: 17px 0; }
+.rte strong, .rte b { font-weight: 700; }
+}
+
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+.fade-in { animation: fade-in 200ms ease; }
+@keyframes slide-right { from { transform: translateX(100%); } to { transform: translateX(0); } }
+@keyframes slide-left { from { transform: translateX(-100%); } to { transform: translateX(0); } }
+.slide-right { animation: slide-right 300ms ease; }
+.slide-left { animation: slide-left 300ms ease; }
