@@ -1,0 +1,50 @@
+[
+  {
+    "src": "/carousel/editorial-chic.jpg",
+    "alt": "Chic Magazine Streetwear Editorial",
+    "w": 1024,
+    "h": 1536
+  },
+  {
+    "src": "/carousel/editorial-02.jpg",
+    "alt": "Confident Model in Oversized Streetwear",
+    "w": 1122,
+    "h": 1402
+  },
+  {
+    "src": "/carousel/editorial-collar.jpg",
+    "alt": "Black T-Shirt Collar Detail",
+    "w": 1536,
+    "h": 1024
+  },
+  {
+    "src": "/carousel/editorial-fashion-portrait.jpg",
+    "alt": "Schick Magazine Fashion Portrait",
+    "w": 1024,
+    "h": 1536
+  },
+  {
+    "src": "/carousel/editorial-07.jpg",
+    "alt": "Streetwear Editorial Portrait",
+    "w": 1122,
+    "h": 1402
+  },
+  {
+    "src": "/carousel/editorial-back-view.jpg",
+    "alt": "Back View, Minimalist Denim Editorial",
+    "w": 1024,
+    "h": 1536
+  },
+  {
+    "src": "/carousel/editorial-10.jpg",
+    "alt": "Editorial Streetwear in Soft Studio Light",
+    "w": 1122,
+    "h": 1402
+  },
+  {
+    "src": "/carousel/editorial-11.jpg",
+    "alt": "Over-the-Shoulder Studio Denim Look",
+    "w": 1122,
+    "h": 1402
+  }
+]

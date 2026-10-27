@@ -28,5 +28,5 @@ Logo SVG/PNG (header "H" mark), social icons (draw as SVG), homepage video sourc
 - Video: original SproutVideo embeds (public iframes) — desktop `videos.sproutvideo.com/embed/109bddb01b1aefcb9a/051a9441f0048bb8`, mobile `.../8c9bddb01b1aefc506/25c9f86070a7f3a0` (params `autoPlay=true&playerColor=ffffff&showControls=false&loop=true`).
 - About page: `leah---website.gif` and `HANIFA0194_copy.jpg` (720×720 cover) under "& MORE".
 - Logo: `Hanifa_woman_edition_1080_x_1300_px.png` (saved as `public/logo.png`, shown at 40×48).
-- Fonts saved to `public/fonts/`: BDSans-Black/Bold/Regular, Helvetica-Light, Helvetica-Bold, Helvetica2 (Helvetica-Bold/2 currently unused). Outfit loaded via `next/font/google`.
+- Fonts saved to `public/fonts/`: BDSans-Black/Bold/Regular, Helvetica-Light, Helvetica-Bold, Helvetica2 (Helvetica-Bold/2 currently unused). Outfit loaded via `next/font/google`. `AGaramond LT` (supplied by the owner, `AGaramondLT-Regular.woff2`) replaces BDSans-Black as `--font-display`.
 - Catalog snapshot (US market, `country=US`): 138 products, 66 collections with ordering, Shopify "related" recommendations. **Note:** requests without `country=US` return localised prices/availability.

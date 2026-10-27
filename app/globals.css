@@ -6,6 +6,7 @@
 @font-face { font-family: "BDSans-Regular"; src: url("/fonts/BDSans-Regular.woff2") format("woff2"); font-display: swap; }
 @font-face { font-family: "Helvetica-Light"; src: url("/fonts/Helvetica-Light.woff2") format("woff2"); font-display: swap; }
 @font-face { font-family: "Helvetica-Bold"; src: url("/fonts/Helvetica-Bold.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "AGaramond LT"; src: url("/fonts/AGaramondLT-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 
 :root {
   --header-h: 65px;
@@ -15,7 +16,7 @@
 
 @theme inline {
   --font-body: "Helvetica-Light", sans-serif;
-  --font-display: "BDSans-Black", sans-serif;
+  --font-display: "AGaramond LT", Garamond, serif;
   --font-heading: "BDSans-Bold", sans-serif;
   --font-regular: "BDSans-Regular", sans-serif;
   --color-sale: var(--sale-red);

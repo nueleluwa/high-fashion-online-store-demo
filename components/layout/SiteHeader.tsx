@@ -68,8 +68,9 @@ export default function SiteHeader() {
         </div>
 
         {/* logo */}
-        <Link href="/" className="my-auto inline-block py-2" aria-label="Hanifa">
-          <Image src="/logo.png" alt="Hanifa" width={40} height={48} priority className="h-12 w-10 object-contain" />
+        <Link href="/" className="my-auto inline-block py-2" aria-label="SCHICK">
+          {/* the supplied logo is white on transparent; brightness-0 renders it black on the white header */}
+          <Image src="/schick-logo-white.png" alt="SCHICK" width={720} height={195} priority className="h-[30px] w-auto brightness-0" />
         </Link>
 
         {/* right */}

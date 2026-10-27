@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import HomeCarousel from "@/components/commerce/HomeCarousel";
-import { getCollection } from "@/lib/catalog";
+import slides from "@/lib/carousel-slides.json";
 
 const F = "https://hanifa.co/cdn/shop/files/";
 
@@ -16,16 +16,15 @@ function Row({ href, desktop, mobile }: { href: string; desktop: { src: string; 
   );
 }
 
-const VIDEO = "autoPlay=true&playerColor=ffffff&showControls=false&loop=true";
+const YOUTUBE = "https://www.youtube.com/embed/c2BPjlTxTqQ?autoplay=1&mute=1&loop=1&playlist=c2BPjlTxTqQ&controls=0&playsinline=1&rel=0&disablekb=1&fs=0&iv_load_policy=3&modestbranding=1";
 
 export default function Home() {
-  const restocked = getCollection("just-restocked")?.products ?? [];
   return (
     <>
       <Link href="/collections/just-restocked" className="block">
         <Image src={`${F}HANIFA_HEADER_IMAGE_26.png?v=1779740058`} alt="Hanifa" width={2000} height={1333} priority sizes="100vw" className="h-auto w-full" />
       </Link>
-      <HomeCarousel title="JUST RESTOCKED" href="/collections/just-restocked" products={restocked} />
+      <HomeCarousel title="JUST RESTOCKED" href="/collections/just-restocked" slides={slides} />
       <Row
         href="/collections/bestsellers"
         desktop={{ src: "Slice_4_7fc8db15-a2a3-462c-b298-643d06f3d7ea.jpg?v=1769928727", w: 2252, h: 1491 }}
@@ -36,26 +35,20 @@ export default function Home() {
         desktop={{ src: "Slice_3_1.jpg?v=1769528890", w: 1501, h: 1001 }}
         mobile={{ src: "Slice_4_1.jpg?v=1769528906", w: 1501, h: 1231 }}
       />
-      {/* Original SproutVideo embeds: 16:9 on desktop, 3:4 on mobile */}
-      <div className="bg-black">
-        <div className="relative hidden pb-[56.25%] min-[750px]:block">
-          <iframe
-            title="Hanifa video"
-            src={`https://videos.sproutvideo.com/embed/109bddb01b1aefcb9a/051a9441f0048bb8?${VIDEO}`}
-            loading="lazy"
-            allow="autoplay; encrypted-media; picture-in-picture"
-            className="absolute left-0 top-0 h-full w-full border-0"
-          />
-        </div>
-        <div className="relative pb-[133.3333%] min-[750px]:hidden">
-          <iframe
-            title="Hanifa video"
-            src={`https://videos.sproutvideo.com/embed/8c9bddb01b1aefc506/25c9f86070a7f3a0?${VIDEO}`}
-            loading="lazy"
-            allow="autoplay; encrypted-media; picture-in-picture"
-            className="absolute left-0 top-0 h-full w-full border-0"
-          />
-        </div>
+      {/* YouTube video used as a background: muted, looping, no controls, not interactive. The 16:9 player is
+          oversized and cropped to fill the frame, which also clips YouTube's title bar and control strip (16:9 on desktop, 3:4 below 750px like the original). */}
+      <div className="relative overflow-hidden bg-black pb-[133.3333%] min-[750px]:pb-[56.25%]" aria-hidden="true">
+        <iframe
+          title="Behind-The-Scenes: SCHICK Summer 2019 Cover Star, AṢA"
+          src={YOUTUBE}
+          loading="lazy"
+          tabIndex={-1}
+          allow="autoplay; encrypted-media; picture-in-picture"
+          referrerPolicy="strict-origin-when-cross-origin"
+          className="pointer-events-none absolute left-1/2 top-1/2 h-[130%] w-[308.15%] -translate-x-1/2 -translate-y-1/2 border-0 min-[750px]:h-[135%] min-[750px]:w-[135%]"
+        />
+        {/* Overlay: darkens the video so any content placed on it stays readable */}
+        <div className="absolute inset-0 bg-black/40" />
       </div>
     </>
   );

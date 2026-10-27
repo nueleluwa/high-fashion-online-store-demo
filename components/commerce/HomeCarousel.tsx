@@ -3,10 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import type { Product } from "@/lib/catalog";
+
+export type Slide = { src: string; alt: string; w: number; h: number; href?: string };
 
 // Slides are image-only (no title/price), 40% wide on desktop and 70% on mobile, 4px gap.
-export default function HomeCarousel({ title, href, products }: { title: string; href: string; products: Product[] }) {
+export default function HomeCarousel({ title, href, slides }: { title: string; href: string; slides: Slide[] }) {
   const track = useRef<HTMLDivElement>(null);
   const [page, setPage] = useState(0);
   const DOTS = 5;
@@ -50,20 +51,18 @@ export default function HomeCarousel({ title, href, products }: { title: string;
             setPage(max > 0 ? Math.round((el.scrollLeft / max) * (DOTS - 1)) : 0);
           }}
         >
-          {products.map((p, i) => (
-            <Link key={p.id} href={`/products/${p.handle}`} aria-label={p.title} className="block w-[70%] shrink-0 min-[750px]:w-[40%]">
+          {slides.map((s, i) => (
+            <Link key={s.src} href={s.href ?? href} aria-label={s.alt} className="block w-[70%] shrink-0 min-[750px]:w-[40%]">
               <div className="relative aspect-[4/5] bg-[#f0f0f0]">
-                {p.images[0] && (
-                  <Image
-                    src={p.images[0].src}
-                    alt={p.title}
-                    width={p.images[0].width}
-                    height={p.images[0].height}
-                    sizes="(min-width:750px) 40vw, 70vw"
-                    priority={i < 3}
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
-                )}
+                <Image
+                  src={s.src}
+                  alt={s.alt}
+                  width={s.w}
+                  height={s.h}
+                  sizes="(min-width:750px) 40vw, 70vw"
+                  priority={i < 3}
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
               </div>
             </Link>
           ))}
