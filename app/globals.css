@@ -1,24 +1,19 @@
 @import "tailwindcss";
 
 /* Fonts measured from hanifa.co (see docs/design-system.md) */
-@font-face { font-family: "BDSans-Black"; src: url("/fonts/BDSans-Black.woff2") format("woff2"); font-display: swap; }
-@font-face { font-family: "BDSans-Bold"; src: url("/fonts/BDSans-Bold.woff2") format("woff2"); font-display: swap; }
-@font-face { font-family: "BDSans-Regular"; src: url("/fonts/BDSans-Regular.woff2") format("woff2"); font-display: swap; }
-@font-face { font-family: "Helvetica-Light"; src: url("/fonts/Helvetica-Light.woff2") format("woff2"); font-display: swap; }
-@font-face { font-family: "Helvetica-Bold"; src: url("/fonts/Helvetica-Bold.woff2") format("woff2"); font-display: swap; }
 @font-face { font-family: "AGaramond LT"; src: url("/fonts/AGaramondLT-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 
 :root {
   --header-h: 65px;
   --gutter: 17px;
   --sale-red: #d00;
+  --font-body: "AGaramond LT", Garamond, serif;
+  --font-display: var(--font-body);
+  --font-heading: var(--font-body);
+  --font-regular: var(--font-body);
 }
 
 @theme inline {
-  --font-body: "Helvetica-Light", sans-serif;
-  --font-display: "AGaramond LT", Garamond, serif;
-  --font-heading: "BDSans-Bold", sans-serif;
-  --font-regular: "BDSans-Regular", sans-serif;
   --color-sale: var(--sale-red);
 }
 
@@ -53,7 +48,7 @@ img { display: block; max-width: 100%; }
 .rte p, .rte h4 { margin: 0; }
 .rte p[dir] + p, .rte h4 + p, .policy-body p + p { margin-top: 17px; }
 .rte p[dir] { font-size: 12px; line-height: 12px; }
-.rte h4 { font-family: var(--font-outfit), sans-serif; font-size: 21.25px; line-height: 21.25px; font-weight: 400; letter-spacing: 0.5px; margin-top: 17px; }
+.rte h4 { font-family: var(--font-display); font-size: 21.25px; line-height: 21.25px; font-weight: 400; letter-spacing: 0.5px; margin-top: 17px; }
 .rte h2, .rte h3 { font-family: var(--font-heading); font-size: 17px; line-height: 15.3px; text-transform: uppercase; font-weight: 400; letter-spacing: 0.3px; margin: 17px 0 0; }
 .rte a { text-decoration: underline; }
 .rte ul { padding-left: 18px; margin: 17px 0 0; list-style: disc; }

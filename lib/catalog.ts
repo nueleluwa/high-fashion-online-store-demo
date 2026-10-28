@@ -1,5 +1,6 @@
 import products from "@/data/products-all.json";
 import collectionMap from "@/data/collection-map.json";
+import schick from "./schick-catalog.json";
 
 export type Variant = {
   id: number;
@@ -23,9 +24,11 @@ export type Product = {
   images: { id: number; src: string; width: number; height: number }[];
 };
 
-const all = products as unknown as Product[];
+// SCHICK products imported from the WordPress export (scripts/import-wordpress.mjs) sit alongside the scraped catalog.
+const all = [...(schick.products as unknown as Product[]), ...(products as unknown as Product[])];
 const byHandle = new Map(all.map((p) => [p.handle, p]));
-const collections = collectionMap as Record<string, { title: string; handles: string[] }>;
+type CollectionEntry = { title: string; handles: string[] };
+const collections: Record<string, CollectionEntry> = { ...(collectionMap as Record<string, CollectionEntry>), ...schick.collections };
 
 export const getAllProducts = () => all;
 export const getProduct = (handle: string) => byHandle.get(handle);

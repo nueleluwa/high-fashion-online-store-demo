@@ -34,7 +34,7 @@ export default function NewsletterPopup() {
         <button aria-label="Close dialog" className="absolute right-3 top-3" onClick={close}>
           <CloseIcon size={30} />
         </button>
-        <h2 className="font-[family-name:var(--font-body)] text-[52px] font-normal leading-[50px] tracking-normal" style={{ fontFamily: "Poppins, Helvetica, sans-serif" }}>
+        <h2 className="font-[family-name:var(--font-body)] text-[52px] font-normal leading-[50px] tracking-normal">
           NEVER MISS
           <span className="block text-[38px] font-bold leading-[50px]">A LAUNCH AGAIN</span>
         </h2>

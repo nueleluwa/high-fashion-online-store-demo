@@ -36,7 +36,7 @@ export default function CartPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-6 text-right text-[14px]">Subtotal {money(subtotal)} USD</p>
+          <p className="mt-6 text-right text-[14px]">Subtotal {money(subtotal)}</p>
           <p className="mt-1 text-right text-[12px]">Taxes and shipping calculated at checkout. Demo store — checkout is not connected.</p>
         </>
       )}

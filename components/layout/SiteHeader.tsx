@@ -88,11 +88,11 @@ export default function SiteHeader() {
       </div>
 
       {/* dropdown bar */}
-      {menu !== null && (
+      {menu !== null && NAV[menu].links.length > 0 && (
         <div className="fade-in absolute left-0 top-full w-full border-y border-gray-200 bg-white px-[17px] text-center">
           <ul className="flex justify-center gap-4 py-2">
             {NAV[menu].links.map((l) => (
-              <li key={l.href}>
+              <li key={l.label}>
                 <Link
                   href={l.href}
                   onClick={() => setMenu(null)}
@@ -142,10 +142,10 @@ export default function SiteHeader() {
                   {g.label}
                   <ChevronDown size={14} className={mobileGroup === i ? "rotate-180" : ""} />
                 </button>
-                {mobileGroup === i && (
+                {mobileGroup === i && g.links.length > 0 && (
                   <ul className="pb-3">
                     {g.links.map((l) => (
-                      <li key={l.href}>
+                      <li key={l.label}>
                         <Link
                           href={l.href}
                           onClick={() => setMobileOpen(false)}

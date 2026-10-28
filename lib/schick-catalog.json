@@ -1,0 +1,1378 @@
+{
+  "products": [
+    {
+      "id": 9000566,
+      "title": "The SCHICK Collector's Box",
+      "handle": "schick-collectors-box",
+      "body_html": "<p>Own the ultimate beauty collector’s moment with the SCHICK Collector’s Box — our limited-edition, advent-style treasure curated for true fashion, beauty &amp; culture lovers around the world. Purchase any 10 copies of SCHICK in this exclusive box and unlock a luxe reward: a complimentary gift from Zaron Cosmetics. It’s more than a purchase, it’s a celebration of beauty, value, and glamour in one iconic set. Limited pieces available, so secure yours before it’s gone.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-07T10:02:10Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Options",
+          "position": 1,
+          "values": [
+            "With M.A.C Cosmetics eye palette",
+            "With Zaron Cosmetics eye palette"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900056601,
+          "title": "With M.A.C Cosmetics eye palette",
+          "option1": "With M.A.C Cosmetics eye palette",
+          "option2": null,
+          "available": true,
+          "price": "330000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1785,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/SCHICK-COLLECTORS-BOX-scaled.jpg",
+            "width": 2560,
+            "height": 2189
+          }
+        },
+        {
+          "id": 900056602,
+          "title": "With Zaron Cosmetics eye palette",
+          "option1": "With Zaron Cosmetics eye palette",
+          "option2": null,
+          "available": true,
+          "price": "330000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1785,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/SCHICK-COLLECTORS-BOX-scaled.jpg",
+            "width": 2560,
+            "height": 2189
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 1785,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/SCHICK-COLLECTORS-BOX-scaled.jpg",
+          "width": 2560,
+          "height": 2189
+        }
+      ],
+      "sku": null
+    },
+    {
+      "id": 9000968,
+      "title": "SCHICK Magazine Print Issue 1",
+      "handle": "schick-magazine-print-issue-1",
+      "body_html": "<p>Our debut issue and the beginning of the SCHICK legacy. This edition celebrates powerful, stylish women with The Power List and a bold fashion edit, featuring A-list actress Rita Dominic like you’ve never seen her before</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T11:32:33Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900096801,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000001",
+          "featured_image": {
+            "id": 981,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-1-RITA-DOMINIC--scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900096802,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000001",
+          "featured_image": {
+            "id": 981,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-1-RITA-DOMINIC--scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 981,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-1-RITA-DOMINIC--scaled.jpg",
+          "width": 1936,
+          "height": 2560
+        }
+      ],
+      "sku": "000001"
+    },
+    {
+      "id": 9000987,
+      "title": "SCHICK Magazine Issue 2",
+      "handle": "schick-magazine-print-issue-2",
+      "body_html": "<p>Featuring Ghanaian TV star Joselyn Dumas, this issue explores fitness, self-love, and confidence, paired with a fresh summer style guide. Bold, empowering, and effortlessly chic.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T13:39:53Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900098701,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000002",
+          "featured_image": {
+            "id": 980,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-2-JOSELYN-DUMAS.jpg",
+            "width": 1235,
+            "height": 1630
+          }
+        },
+        {
+          "id": 900098702,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000002",
+          "featured_image": {
+            "id": 980,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-2-JOSELYN-DUMAS.jpg",
+            "width": 1235,
+            "height": 1630
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 980,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-2-JOSELYN-DUMAS.jpg",
+          "width": 1235,
+          "height": 1630
+        }
+      ],
+      "sku": "000002"
+    },
+    {
+      "id": 9000988,
+      "title": "SCHICK Magazine Issue 3",
+      "handle": "schick-magazine-print-issue-3",
+      "body_html": "<p>Featuring Mayowa Nicholas as Model of the Moment, this issue captures strength, resilience, and high-fashion drama. A bold editorial that defines the season and celebrates the power of modern African beauty.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:15:25Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900098801,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000003",
+          "featured_image": {
+            "id": 984,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-3-MAYOWA-NICHOLAS-2.jpg",
+            "width": 1069,
+            "height": 1414
+          }
+        },
+        {
+          "id": 900098802,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000003",
+          "featured_image": {
+            "id": 984,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-3-MAYOWA-NICHOLAS-2.jpg",
+            "width": 1069,
+            "height": 1414
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 984,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-3-MAYOWA-NICHOLAS-2.jpg",
+          "width": 1069,
+          "height": 1414
+        }
+      ],
+      "sku": "000003"
+    },
+    {
+      "id": 9000989,
+      "title": "SCHICK Magazine Issue 4",
+      "handle": "schick-magazine-print-issue-4",
+      "body_html": "<p>A defining cover moment with South African TV personality Bonang Matheba, paired with trend-forward fashion and a modern take on style for the year ahead.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:18:23Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900098901,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000004",
+          "featured_image": {
+            "id": 978,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-4-BONANG-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900098902,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000004",
+          "featured_image": {
+            "id": 978,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-4-BONANG-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 978,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-4-BONANG-scaled.jpg",
+          "width": 1936,
+          "height": 2560
+        }
+      ],
+      "sku": "000004"
+    },
+    {
+      "id": 9000990,
+      "title": "SCHICK Magazine Issue 5",
+      "handle": "schick-magazine-print-issue-5",
+      "body_html": "<p>This issue spotlights Angolan international model Maria Borges in a powerful conversation on the business of modelling. A sharp fashion edit anchors a season defined by presence, craft, and ambition.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:21:23Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099001,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000005",
+          "featured_image": {
+            "id": 977,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-5-MARIA.jpg",
+            "width": 1069,
+            "height": 1414
+          }
+        },
+        {
+          "id": 900099002,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000005",
+          "featured_image": {
+            "id": 977,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-5-MARIA.jpg",
+            "width": 1069,
+            "height": 1414
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 977,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-5-MARIA.jpg",
+          "width": 1069,
+          "height": 1414
+        }
+      ],
+      "sku": "000005"
+    },
+    {
+      "id": 9000991,
+      "title": "SCHICK Magazine Issue 6",
+      "handle": "schick-magazine-print-issue-6",
+      "body_html": "<p>This issue captures Nigerian-French musician Asa in full bloom, set against a season of colour, ease, and quiet strength. A summer-ready edit highlights swimwear and forever trends designed for effortless style.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:26:13Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099101,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000006",
+          "featured_image": {
+            "id": 976,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-6-ASA-.png",
+            "width": 756,
+            "height": 1000
+          }
+        },
+        {
+          "id": 900099102,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000006",
+          "featured_image": {
+            "id": 976,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-6-ASA-.png",
+            "width": 756,
+            "height": 1000
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 976,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-6-ASA-.png",
+          "width": 756,
+          "height": 1000
+        }
+      ],
+      "sku": "000006"
+    },
+    {
+      "id": 9000992,
+      "title": "SCHICK Magazine Issue 7",
+      "handle": "schick-magazine-print-issue-7",
+      "body_html": "<p>This edition introduces a new generation of Nigerian models shaping the future of fashion, spotlighting Olamide Ogundele, Ayobami Okekunle, Eniola Abioro, and Ruth Akele. A bold fashion edit captures individuality, edge, and the evolving face of African beauty.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:28:32Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099201,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000007",
+          "featured_image": {
+            "id": 975,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-7-NEW-GEN.jpg",
+            "width": 1231,
+            "height": 1629
+          }
+        },
+        {
+          "id": 900099202,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000007",
+          "featured_image": {
+            "id": 975,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-7-NEW-GEN.jpg",
+            "width": 1231,
+            "height": 1629
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 975,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-7-NEW-GEN.jpg",
+          "width": 1231,
+          "height": 1629
+        }
+      ],
+      "sku": "000007"
+    },
+    {
+      "id": 9000993,
+      "title": "SCHICK Magazine Issue 8",
+      "handle": "schick-magazine-print-issue-8",
+      "body_html": "<p>A new decade opens with South-African actress Pearl Thusi, reflecting on her game-changing role as Queen Sono. A bold fashion edit ushers in a decade of style, strength, and modern African storytelling.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:30:58Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099301,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000008",
+          "featured_image": {
+            "id": 974,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-8-PEARL-THUSI-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900099302,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000008",
+          "featured_image": {
+            "id": 974,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-8-PEARL-THUSI-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 974,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-8-PEARL-THUSI-scaled.jpg",
+          "width": 1936,
+          "height": 2560
+        }
+      ],
+      "sku": "000008"
+    },
+    {
+      "id": 9000994,
+      "title": "SCHICK Magazine Print Issue 9",
+      "handle": "schick-magazine-print-issue-9",
+      "body_html": "<p>Nigerian-British actress Beverly Naya steps forward in a powerful conversation on self-confidence, skin, and self-acceptance. A vibrant fashion edit captures the spirit of an uprising era and celebrates bold, unapologetic African beauty.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:33:28Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099401,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000009",
+          "featured_image": {
+            "id": 973,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-9-BEVERLY-NAYA-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900099402,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "000009",
+          "featured_image": {
+            "id": 973,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-9-BEVERLY-NAYA-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 973,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-9-BEVERLY-NAYA-scaled.jpg",
+          "width": 1936,
+          "height": 2560
+        }
+      ],
+      "sku": "000009"
+    },
+    {
+      "id": 9000995,
+      "title": "SCHICK Magazine Issue 10",
+      "handle": "schick-magazine-print-issue-10",
+      "body_html": "<p>Ghanaian actress Lydia Forson leads a striking cover story on style, roots, and activism, grounded in self-awareness beyond social media. A bold fashion edit celebrates identity, heritage, and purposeful expression in modern African fashion.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:35:36Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099501,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000010",
+          "featured_image": {
+            "id": 971,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-10-LYDIA-FORSON-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900099502,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000010",
+          "featured_image": {
+            "id": 971,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-10-LYDIA-FORSON-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 971,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-10-LYDIA-FORSON-scaled.jpg",
+          "width": 1936,
+          "height": 2560
+        }
+      ],
+      "sku": "0000010"
+    },
+    {
+      "id": 9000996,
+      "title": "SCHICK Magazine Issue 11",
+      "handle": "schick-magazine-print-issue-11",
+      "body_html": "<p>A global force takes centre stage as Nigerian literary icon Chimamanda Ngozi Adichie reflects on feminism, fashion, and the art of literature. A rich fashion edit weaves intellect, elegance, and cultural power into a timeless visual story.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:38:53Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099601,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000011",
+          "featured_image": {
+            "id": 972,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-11-CHIMAMANDA-NGOZI-ADICHIE-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900099602,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000011",
+          "featured_image": {
+            "id": 972,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-11-CHIMAMANDA-NGOZI-ADICHIE-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 972,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-11-CHIMAMANDA-NGOZI-ADICHIE-scaled.jpg",
+          "width": 1936,
+          "height": 2560
+        }
+      ],
+      "sku": "0000011"
+    },
+    {
+      "id": 9000997,
+      "title": "SCHICK Magazine Issue 12",
+      "handle": "schick-magazine-print-issue-12",
+      "body_html": "<p>Becoming Somali-Canadian beauty entrepreneur and activist Sabrina Elba unfolds in an intimate reflection on power, purpose, and identity. A refined fashion edit marks five years of SCHICK, celebrating growth, beauty, and modern womanhood with intention.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:42:53Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099701,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000012",
+          "featured_image": {
+            "id": 983,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-12-SABRINA-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900099702,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000012",
+          "featured_image": {
+            "id": 983,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-12-SABRINA-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 983,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-12-SABRINA-scaled.jpg",
+          "width": 1936,
+          "height": 2560
+        }
+      ],
+      "sku": "0000012"
+    },
+    {
+      "id": 9000998,
+      "title": "SCHICK Magazine Issue 13",
+      "handle": "schick-magazine-print-issue-13",
+      "body_html": "<p>Africa’s first M.A.C maker, Nigerian music star, Tiwa Savage, reflects on her iconic beauty collaboration, personal style, and why music has always come first. A high-impact fashion edit captures confidence, creativity, and star power at full volume.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-29T14:46:59Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900099801,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000013",
+          "featured_image": {
+            "id": 970,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-13-TIWA-SAVAGE-scaled.jpg",
+            "width": 1942,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900099802,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000013",
+          "featured_image": {
+            "id": 970,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-13-TIWA-SAVAGE-scaled.jpg",
+            "width": 1942,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 970,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/ISSUE-13-TIWA-SAVAGE-scaled.jpg",
+          "width": 1942,
+          "height": 2560
+        }
+      ],
+      "sku": "0000013"
+    },
+    {
+      "id": 9001055,
+      "title": "Too SCHICK for you t-shirt",
+      "handle": "too-schick-for-you-t-shirt",
+      "body_html": "<p>Everyday essentials designed to carry the SCHICK spirit beyond the page. From shirts and tote bags to notebooks, mugs, and phone cases, each piece blends function, style, and identity.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-01-31T10:22:15Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900105501,
+          "title": "S",
+          "option1": "S",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1775,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/shirt-2-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900105502,
+          "title": "M",
+          "option1": "M",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1775,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/shirt-2-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900105503,
+          "title": "L",
+          "option1": "L",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1775,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/shirt-2-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900105504,
+          "title": "XL",
+          "option1": "XL",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1775,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/shirt-2-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900105505,
+          "title": "XXL",
+          "option1": "XXL",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1775,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/shirt-2-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 1775,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/01/shirt-2-scaled.jpeg",
+          "width": 2048,
+          "height": 2560
+        }
+      ],
+      "sku": null
+    },
+    {
+      "id": 9001537,
+      "title": "SCHICK iPhone Case",
+      "handle": "schick-iphone-case",
+      "body_html": "<p>Everyday essentials designed to carry the SCHICK spirit beyond the page. From shirts and tote bags to notebooks, mugs, and phone cases, each piece blends function, style, and identity.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-02-28T14:42:45Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900153701,
+          "title": "Default Title",
+          "option1": null,
+          "option2": null,
+          "available": true,
+          "price": "15000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1780,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/phonecase-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 1780,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/phonecase-scaled.jpeg",
+          "width": 2048,
+          "height": 2560
+        }
+      ],
+      "sku": null
+    },
+    {
+      "id": 9001539,
+      "title": "SCHICK Mug",
+      "handle": "schick-mug",
+      "body_html": "<p>Everyday essentials designed to carry the SCHICK spirit beyond the page. From shirts and tote bags to notebooks, mugs, and phone cases, each piece blends function, style, and identity.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-02-28T14:45:15Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900153901,
+          "title": "Default Title",
+          "option1": null,
+          "option2": null,
+          "available": true,
+          "price": "15000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1776,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/mug-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 1776,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/mug-scaled.jpeg",
+          "width": 2048,
+          "height": 2560
+        }
+      ],
+      "sku": null
+    },
+    {
+      "id": 9001540,
+      "title": "SCHICK T-shirt",
+      "handle": "schick-t-shirt",
+      "body_html": "<p>Everyday essentials designed to carry the SCHICK spirit beyond the page. From shirts and tote bags to notebooks, mugs, and phone cases, each piece blends function, style, and identity.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-02-28T14:48:16Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900154001,
+          "title": "S",
+          "option1": "S",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1778,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/shirt-1-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900154002,
+          "title": "M",
+          "option1": "M",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1778,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/shirt-1-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900154003,
+          "title": "L",
+          "option1": "L",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1778,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/shirt-1-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900154004,
+          "title": "XL",
+          "option1": "XL",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1778,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/shirt-1-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900154005,
+          "title": "XXL",
+          "option1": "XXL",
+          "option2": null,
+          "available": true,
+          "price": "25000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1778,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/shirt-1-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 1778,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/02/shirt-1-scaled.jpeg",
+          "width": 2048,
+          "height": 2560
+        }
+      ],
+      "sku": null
+    },
+    {
+      "id": 9001781,
+      "title": "SCHICK Totebag",
+      "handle": "schick-totebag",
+      "body_html": "<p>Everyday essentials designed to carry the SCHICK spirit beyond the page. From shirts and tote bags to notebooks, mugs, and phone cases, each piece blends function, style, and identity.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-03-13T09:55:22Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900178101,
+          "title": "Default Title",
+          "option1": null,
+          "option2": null,
+          "available": true,
+          "price": "15000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1782,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/03/tote-bag-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 1782,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/03/tote-bag-scaled.jpeg",
+          "width": 2048,
+          "height": 2560
+        }
+      ],
+      "sku": null
+    },
+    {
+      "id": 9001783,
+      "title": "SCHICK Notepad",
+      "handle": "schick-notepad",
+      "body_html": "<p>Everyday essentials designed to carry the SCHICK spirit beyond the page. From shirts and tote bags to notebooks, mugs, and phone cases, each piece blends function, style, and identity.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-03-13T13:32:55Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900178301,
+          "title": "Default Title",
+          "option1": null,
+          "option2": null,
+          "available": true,
+          "price": "15000.00",
+          "compare_at_price": null,
+          "sku": null,
+          "featured_image": {
+            "id": 1784,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/03/notepad-scaled.jpeg",
+            "width": 2048,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 1784,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/03/notepad-scaled.jpeg",
+          "width": 2048,
+          "height": 2560
+        }
+      ],
+      "sku": null
+    },
+    {
+      "id": 9001887,
+      "title": "SCHICK Youth Magazine Issue 1",
+      "handle": "schick-magazine-issue-1-youth-edition",
+      "body_html": "<p>In this defining feature, Nigerian fast-rising singer-songwriter, Qing Madi reflects on her rapid ascent, creative independence, and the emotional honesty that shapes her music. With a distinct sound and unwavering authenticity, she represents a new generation of artists redefining success on their own terms.</p>",
+      "vendor": "SCHICK",
+      "published_at": "2026-04-28T10:48:08Z",
+      "tags": [],
+      "options": [
+        {
+          "name": "Select Edition",
+          "position": 1,
+          "values": [
+            "Print Edition",
+            "Digital Edition"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 900188701,
+          "title": "Print Edition",
+          "option1": "Print Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000014-15",
+          "featured_image": {
+            "id": 1891,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/04/QING-MADI-COVER-DESIGN-1-ISSUE-1-YOUTH-EDITION-full-cover-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        },
+        {
+          "id": 900188702,
+          "title": "Digital Edition",
+          "option1": "Digital Edition",
+          "option2": null,
+          "available": true,
+          "price": "30000.00",
+          "compare_at_price": null,
+          "sku": "0000014-15",
+          "featured_image": {
+            "id": 1891,
+            "src": "https://theschickreadingparty.com/wp-content/uploads/2026/04/QING-MADI-COVER-DESIGN-1-ISSUE-1-YOUTH-EDITION-full-cover-scaled.jpg",
+            "width": 1936,
+            "height": 2560
+          }
+        }
+      ],
+      "images": [
+        {
+          "id": 1891,
+          "src": "https://theschickreadingparty.com/wp-content/uploads/2026/04/QING-MADI-COVER-DESIGN-1-ISSUE-1-YOUTH-EDITION-full-cover-scaled.jpg",
+          "width": 1936,
+          "height": 2560
+        }
+      ],
+      "sku": "0000014-15"
+    }
+  ],
+  "collections": {
+    "collectors-box": {
+      "title": "Collector's Box",
+      "handles": [
+        "schick-collectors-box"
+      ]
+    },
+    "magazines": {
+      "title": "Magazines",
+      "handles": [
+        "schick-magazine-issue-1-youth-edition",
+        "schick-magazine-print-issue-13",
+        "schick-magazine-print-issue-12",
+        "schick-magazine-print-issue-11",
+        "schick-magazine-print-issue-10",
+        "schick-magazine-print-issue-9",
+        "schick-magazine-print-issue-8",
+        "schick-magazine-print-issue-7",
+        "schick-magazine-print-issue-6",
+        "schick-magazine-print-issue-5",
+        "schick-magazine-print-issue-4",
+        "schick-magazine-print-issue-3",
+        "schick-magazine-print-issue-2",
+        "schick-magazine-print-issue-1"
+      ]
+    },
+    "merch": {
+      "title": "Merch",
+      "handles": [
+        "too-schick-for-you-t-shirt",
+        "schick-iphone-case",
+        "schick-mug",
+        "schick-t-shirt",
+        "schick-totebag",
+        "schick-notepad"
+      ]
+    }
+  }
+}

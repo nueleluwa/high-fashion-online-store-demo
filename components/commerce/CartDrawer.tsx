@@ -65,7 +65,7 @@ export default function CartDrawer() {
             </ul>
             <div className="flex justify-between py-2 text-[12px]">
               <span>Subtotal</span>
-              <span>{money(subtotal)} USD</span>
+              <span>{money(subtotal)}</span>
             </div>
             <p className="mb-4 text-right text-[12px]">Taxes and shipping calculated at checkout</p>
             <button
