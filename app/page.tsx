@@ -22,13 +22,14 @@ export default function Home() {
   return (
     <>
       <Link href="/collections/merch" className="block">
-        <Image src={`${F}HANIFA_HEADER_IMAGE_26.png?v=1779740058`} alt="Hanifa" width={2000} height={1333} priority sizes="100vw" className="h-auto w-full" />
+        <Image src="/home/hero.png" alt="SCHICK Too SCHICK for you t-shirt" width={1672} height={941} priority sizes="100vw" className="h-auto w-full" />
       </Link>
       <HomeCarousel title="SHOP THE MERCH" href="/collections/merch" slides={slides} />
       <Row
-        href="/collections/bestsellers"
-        desktop={{ src: "Slice_4_7fc8db15-a2a3-462c-b298-643d06f3d7ea.jpg?v=1769928727", w: 2252, h: 1491 }}
-        mobile={{ src: "Slice_4-1.jpg?v=1769928739", w: 2252, h: 1745 }}
+        href="/collections/merch"
+        base="/home/"
+        desktop={{ src: "merch-cta.png", w: 1920, h: 1271 }}
+        mobile={{ src: "merch-cta.png", w: 1920, h: 1271 }}
       />
       <Row
         href="/collections/magazines"
