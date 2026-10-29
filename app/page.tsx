@@ -7,11 +7,11 @@ const F = "https://hanifa.co/cdn/shop/files/";
 
 // Each editorial row is one full-bleed image (text and cream panel are baked into the artwork),
 // with a separate crop below 750px (the reference's image breakpoint).
-function Row({ href, desktop, mobile }: { href: string; desktop: { src: string; w: number; h: number }; mobile: { src: string; w: number; h: number } }) {
+function Row({ href, desktop, mobile, base = F }: { href: string; desktop: { src: string; w: number; h: number }; mobile: { src: string; w: number; h: number }; base?: string }) {
   return (
     <Link href={href} className="block">
-      <Image src={F + desktop.src} alt="" width={desktop.w} height={desktop.h} sizes="100vw" className="hidden h-auto w-full min-[750px]:block" />
-      <Image src={F + mobile.src} alt="" width={mobile.w} height={mobile.h} sizes="100vw" className="h-auto w-full min-[750px]:hidden" />
+      <Image src={base + desktop.src} alt="" width={desktop.w} height={desktop.h} sizes="100vw" className="hidden h-auto w-full min-[750px]:block" />
+      <Image src={base + mobile.src} alt="" width={mobile.w} height={mobile.h} sizes="100vw" className="h-auto w-full min-[750px]:hidden" />
     </Link>
   );
 }
@@ -31,9 +31,10 @@ export default function Home() {
         mobile={{ src: "Slice_4-1.jpg?v=1769928739", w: 2252, h: 1745 }}
       />
       <Row
-        href="/collections/shipping-now"
-        desktop={{ src: "Slice_3_1.jpg?v=1769528890", w: 1501, h: 1001 }}
-        mobile={{ src: "Slice_4_1.jpg?v=1769528906", w: 1501, h: 1231 }}
+        href="/collections/magazines"
+        base="/home/"
+        desktop={{ src: "magazines-cta.png", w: 1501, h: 1001 }}
+        mobile={{ src: "magazines-cta.png", w: 1501, h: 1001 }}
       />
       {/* YouTube video used as a background: muted, looping, no controls, not interactive. The 16:9 player is
           oversized and cropped to fill the frame, which also clips YouTube's title bar and control strip (16:9 on desktop, 3:4 below 750px like the original). */}
