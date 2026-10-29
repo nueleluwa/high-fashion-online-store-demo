@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }): Promise<Metadata> {
   const { handle } = await params;
   const a = getArticle(handle);
-  return { title: a ? `${a.title} – Hanifa` : "Not Found – Hanifa" };
+  return { title: a ? `${a.title} – SCHICK` : "Not Found – SCHICK" };
 }
 
 // params are request-time data; awaiting them inside <Suspense> keeps the static shell instant.

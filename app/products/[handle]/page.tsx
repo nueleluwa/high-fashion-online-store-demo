@@ -13,7 +13,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }): Promise<Metadata> {
   const { handle } = await params;
   const p = getProduct(handle);
-  return { title: p ? `${p.title} – Hanifa` : "Not Found – Hanifa" };
+  return { title: p ? `${p.title} – SCHICK` : "Not Found – SCHICK" };
 }
 
 // Product copy is authored as `intro` + <h2> sections, which the reference renders as accordions.

@@ -3,12 +3,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getArticles } from "@/lib/content";
 
-export const metadata: Metadata = { title: "Limitless by Hanifa" };
+export const metadata: Metadata = { title: "Limitless by SCHICK" };
 
 export default function BlogIndex() {
   return (
     <div className="px-[17px] pb-12 pt-[17px]">
-      <h1 className="page-title text-center">Limitless by Hanifa</h1>
+      <h1 className="page-title text-center">Limitless by SCHICK</h1>
       <ul className="mx-auto mt-8 grid max-w-[1200px] gap-8 lg:grid-cols-3">
         {getArticles().map((a) => (
           <li key={a.handle}>

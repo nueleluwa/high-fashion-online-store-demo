@@ -8,8 +8,8 @@ import CartDrawer from "@/components/commerce/CartDrawer";
 import NewsletterPopup from "@/components/common/NewsletterPopup";
 
 export const metadata: Metadata = {
-  title: "Hanifa",
-  description: "Hanifa — for women without limits.",
+  title: "SCHICK",
+  description: "SCHICK — style beyond fashion.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

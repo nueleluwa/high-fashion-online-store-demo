@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import SearchResults from "@/components/commerce/SearchResults";
 
-export const metadata: Metadata = { title: "Search – Hanifa" };
+export const metadata: Metadata = { title: "Search – SCHICK" };
 
 export default function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; page?: string }> }) {
   // Reading searchParams is request-time data, so it lives behind a Suspense boundary (Cache Components).

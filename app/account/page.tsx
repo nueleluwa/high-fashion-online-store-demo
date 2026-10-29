@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "Sign in – Hanifa" };
+export const metadata: Metadata = { title: "Sign in – SCHICK" };
 
 // The reference redirects to Shopify's hosted customer accounts; there is no backend here to authenticate against.
 export default function AccountPage() {
