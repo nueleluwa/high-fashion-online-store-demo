@@ -21,10 +21,10 @@ const YOUTUBE = "https://www.youtube.com/embed/c2BPjlTxTqQ?autoplay=1&mute=1&loo
 export default function Home() {
   return (
     <>
-      <Link href="/collections/just-restocked" className="block">
+      <Link href="/collections/merch" className="block">
         <Image src={`${F}HANIFA_HEADER_IMAGE_26.png?v=1779740058`} alt="Hanifa" width={2000} height={1333} priority sizes="100vw" className="h-auto w-full" />
       </Link>
-      <HomeCarousel title="JUST RESTOCKED" href="/collections/just-restocked" slides={slides} />
+      <HomeCarousel title="SHOP THE MERCH" href="/collections/merch" slides={slides} />
       <Row
         href="/collections/bestsellers"
         desktop={{ src: "Slice_4_7fc8db15-a2a3-462c-b298-643d06f3d7ea.jpg?v=1769928727", w: 2252, h: 1491 }}
