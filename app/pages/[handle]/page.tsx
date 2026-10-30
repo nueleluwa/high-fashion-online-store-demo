@@ -14,8 +14,11 @@ const PAGE_EXTRAS: Record<string, { heading: string; images: string[] }> = {
   "about-us": { heading: "& More", images: ["leah---website.gif", "HANIFA0194_copy.jpg"] },
 };
 
+// Pages switched off for now; they 404 until removed from this list.
+const DISABLED_PAGES = new Set(["about-us"]);
+
 export function generateStaticParams() {
-  return getPageHandles().map((handle) => ({ handle }));
+  return getPageHandles().filter((handle) => !DISABLED_PAGES.has(handle)).map((handle) => ({ handle }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }): Promise<Metadata> {
@@ -37,7 +40,7 @@ async function ContentPageContent({ params }: { params: Promise<{ handle: string
   const { handle } = await params;
   const page = getPage(handle);
   // Shogun-built pages have no usable body; `shogun-imported-homepage` is not customer-facing.
-  if (!page || handle === "shogun-imported-homepage") notFound();
+  if (!page || handle === "shogun-imported-homepage" || DISABLED_PAGES.has(handle)) notFound();
 
   const extras = PAGE_EXTRAS[handle];
   return (

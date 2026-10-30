@@ -93,13 +93,17 @@ export default function SiteHeader() {
           <ul className="flex justify-center gap-4 py-2">
             {NAV[menu].links.map((l) => (
               <li key={l.label}>
-                <Link
-                  href={l.href}
-                  onClick={() => setMenu(null)}
-                  className={`inline-block py-2 uppercase ${l.sale ? "text-sale" : ""}`}
-                >
-                  {l.label}
-                </Link>
+                {l.disabled ? (
+                  <span className="inline-block cursor-default py-2 uppercase">{l.label}</span>
+                ) : (
+                  <Link
+                    href={l.href}
+                    onClick={() => setMenu(null)}
+                    className={`inline-block py-2 uppercase ${l.sale ? "text-sale" : ""}`}
+                  >
+                    {l.label}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
@@ -146,13 +150,17 @@ export default function SiteHeader() {
                   <ul className="pb-3">
                     {g.links.map((l) => (
                       <li key={l.label}>
-                        <Link
-                          href={l.href}
-                          onClick={() => setMobileOpen(false)}
-                          className={`block py-2 text-[13px] uppercase ${l.sale ? "text-sale" : ""}`}
-                        >
-                          {l.label}
-                        </Link>
+                        {l.disabled ? (
+                          <span className="block cursor-default py-2 text-[13px] uppercase">{l.label}</span>
+                        ) : (
+                          <Link
+                            href={l.href}
+                            onClick={() => setMobileOpen(false)}
+                            className={`block py-2 text-[13px] uppercase ${l.sale ? "text-sale" : ""}`}
+                          >
+                            {l.label}
+                          </Link>
+                        )}
                       </li>
                     ))}
                   </ul>

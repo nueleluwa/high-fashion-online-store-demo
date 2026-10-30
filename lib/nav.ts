@@ -1,4 +1,4 @@
-export type NavLink = { label: string; href: string; sale?: boolean };
+export type NavLink = { label: string; href: string; sale?: boolean; disabled?: boolean };
 export type FooterLink = { label: string; href: string };
 
 export const NAV: { label: string; links: NavLink[] }[] = [
@@ -13,7 +13,7 @@ export const NAV: { label: string; links: NavLink[] }[] = [
   },
   {
     label: "Brand",
-    links: [{ label: "About", href: "/pages/about-us" }],
+    links: [{ label: "About", href: "/pages/about-us", disabled: true }],
   },
 ];
 
